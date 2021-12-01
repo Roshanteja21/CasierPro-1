@@ -11,6 +11,20 @@ This smart lock based IoT system will give you a two step authentication process
 - [@Roshan K](https://github.com/Roshanteja21)
 - [@Gokul Krishnan](https://github.com/gokulkkr)
 - [@Kavita Nampothri](https://github.com/Kavita1013)
+- 
+## Tech Stack
+
+**Software:** The app was developed in android studio and was supported as a database by firebase. The android app  code was written in Java with XML involved in GUI designing. We have also used two external dependencies named Biometric Prompt which helps in the detection and verification of user’s biometrics. We have initiated the automated mail upon not meeting necessary conditions using JavaMail API and GMAIL’s SMTP server. 
+For the above-mentioned feature, 3 libraries namely additional, mail, activation libraries have also been added externally.
+
+**Hardware:** From the hardware side , we used NODEMCU which is apparently the best and cheapest option for this project. We had chosen the RC522 module for detecting the RFID tags or the cards. Used a normal tactile switch (push button) as an emergence switch and we used an active 3.3V-5V buzzer module for the alarm purposes. Since the support for Arduino firebase library has ended, there were some web script fingerprint issues and we solved it by using GRC SSL fingerprint website and by editing the raw HTTPClient file of Arduino Firebase library. 
+
+
+**Server:** Firebase
+
+**Components:** RC522 RFID sensor, Arduino Uno, Buzzer, Pushbutton, Relay + Motor + Door(Servo Motor)
+
+**EDITOR:** Arduino IDE, Firebase, Nodered, Android Studio
 
 
 ## Software Requirements Specification
